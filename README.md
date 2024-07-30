@@ -7,7 +7,7 @@ As such, contributions should be strictly limited to the process and the documen
 ## What is an RFC?
 
 The "RFC" (request for comments) process is intended to provide a
-consistent and controlled path for new features to enter the framework.
+consistent and controlled path for new features or processes to enter into production.
 
 Many changes, including bug fixes and documentation improvements can be
 implemented and reviewed via the normal GitHub pull request workflow.
@@ -32,9 +32,10 @@ What constitutes a "substantial" change is evolving based on community norms, bu
 
 - A new feature that creates new API surface area
 - Changing the semantics or behavior of an existing API
-- The removal of features that are already shipped as part of the release channel.
+- The removal of features that are already shipped as part of the release channel
+- New process or operational procedure.
 
-Some changes do not require an RFC:
+Some API changes do not require an RFC:
 
 - Additions that strictly improve objective, numerical quality criteria
 - Fixing objectively incorrect behavior
@@ -85,8 +86,8 @@ is 'active' and may be implemented.
 TODO: Rephrase section below
 
 Once an RFC becomes active then authors may implement it and submit the
-feature as a pull request to the Vue core repo. Becoming 'active' is not a rubber stamp, and in particular still does not mean the feature will ultimately
-be merged; it does mean that the [core team] has agreed to it in principle
+feature as a pull request to the repo. Becoming 'active' is not a rubber stamp, and in particular still does not mean the feature or process will ultimately
+be merged; it does mean that the approver(s) defined in the acceptance criteria have agreed to it in principle
 and are amenable to merging it.
 
 Furthermore, the fact that a given RFC has been accepted and is
@@ -115,7 +116,7 @@ feel free to ask (e.g. by leaving a comment on the associated issue).
 
 ## Reviewing RFC's
 
-Members of the (TODO: AC Process) will attempt to review some set of open RFC
-pull requests on a regular basis. If a AC member believes an RFC PR is ready to be accepted into active status, they can approve the PR using GitHub's review feature to signal their approval of the RFC.
+Members of the approver(s), defined in the AC depending on their expertise, role w.r.t. GDI, governance, or GDI reviewing role, will attempt to review some set of the open RFC
+pull requests on a regular basis. If an approver believes an RFC PR is ready to be accepted into active status, they can approve the PR using GitHub's review feature to signal their approval of the RFC. The apporvers may review the RFC using an alternate collaborative tool, although the histroy of the RFC should be presevered, hence the preferrence for Github. 
 
 **GDI's RFC process owes its inspiration to the [Vue RFC process](https://github.com/vuejs/rfcs)**
