@@ -1,0 +1,91 @@
+name: RFC Discussion
+description: "Template for submitting RFC proposals in the Genomic Data Infrastructure repository"
+title: "[RFC] <Title of Your RFC Proposal>"
+labels: 
+  - "RFC"
+  - "discussion"
+body:
+  - type: input
+    id: start_date
+    attributes:
+      label: "Start Date"
+      description: "Enter today's date (YYYY-MM-DD)"
+      placeholder: "Example: 2024-08-13"
+      
+  - type: textarea
+    id: reference_issues
+    attributes:
+      label: "Reference Issues"
+      description: "List any related issues or discussions through their URLs"
+      placeholder: "Example: https://github.com/GenomicDataInfrastructure/rfcs/issues/1"
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Provide a brief summary of the RFC proposal."
+      placeholder: "Example: Add a new feature to optimize API performance for large datasets..."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: use_case
+    attributes:
+      label: "Use-case and Basic Example"
+      description: "Describe the use-case and provide a basic example of how this RFC will be used."
+      placeholder: "Example: This feature will improve response times for API consumers handling large datasets..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation"
+      description: "Explain why this change is necessary, what use cases it supports, and the expected outcome. Focus on explaining the motivation so that if this RFC is not accepted, the motivation could be used to develop alternative solutions. In other words, enumerate the constraints you are trying to solve without coupling them too closely to the solution you have in mind."
+      placeholder: "Example: The current API struggles with large data requests, leading to performance issues..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: detailed_design
+    attributes:
+      label: "Detailed Design"
+      description: "Provide a detailed explanation of the proposed design, including specifics for implementation. Get into specifics and corner-cases, and include examples of how the feature is used. Any new terminology should be defined here."
+      placeholder: "Example: The design includes optimizing the data parser, altering the data flow to improve efficiency, and adjusting the API response format..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "List the criteria that must be met for this RFC to be considered successful."
+      placeholder: "Example: The feature must reduce API response times by 30% without increasing memory usage significantly..."
+
+  - type: textarea
+    id: drawbacks
+    attributes:
+      label: "Drawbacks"
+      description: "Discuss the potential drawbacks or trade-offs of implementing this RFC. In essence, reasons behing why we should _not_ implement this RFC. Consider things like implementation costs, infrastructure-level agreements, integration with existing and planned features, and migration costs (if it's a breaking change). "
+      placeholder: "Example: Increased memory usage could be a concern, and the change may introduce complexity in data handling..."
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives"
+      description: "Discuss any alternative solutions considered and the impact of not implementing this RFC."
+      placeholder: "Example: Alternatives like caching were considered but deemed less effective. Not implementing this RFC could result in ongoing performance issues..."
+
+  - type: textarea
+    id: adoption_strategy
+    attributes:
+      label: "Adoption Strategy"
+      description: "Explain how this RFC will be adopted and if it introduces breaking changes. Pay especial attention to how this may affect other projects in the GDI ecosystem."
+      placeholder: "Example: The change will be released in a major version update. Developers will need to adjust their API integration to accommodate the new data flow..."
+
+  - type: textarea
+    id: unresolved_questions
+    attributes:
+      label: "Unresolved Questions"
+      description: "List any unresolved questions or areas needing further discussion."
+      placeholder: "Example: The impact on existing client libraries needs further investigation..."
