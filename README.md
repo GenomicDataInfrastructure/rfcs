@@ -117,6 +117,6 @@ feel free to ask (e.g. by leaving a comment on the associated issue).
 ## Reviewing RFC's
 
 Members of the approver(s), defined in the AC depending on their expertise, role w.r.t. GDI, governance, or GDI reviewing role, will attempt to review some set of the open RFC
-pull requests on a regular basis. If an approver believes an RFC PR is ready to be accepted into active status, they can approve the PR using GitHub's review feature to signal their approval of the RFC. The apporvers may review the RFC using an alternate collaborative tool, although the histroy of the RFC should be presevered, hence the preferrence for Github. 
+pull requests on a regular basis. If an approver believes an RFC PR is ready to be accepted into active status, they can approve the PR using GitHub's review feature to signal their approval of the RFC. The approvers may review the RFC using an alternate collaborative tool, although the history of the RFC should be preserved, hence the preferrence for GitHub. 
 
 **GDI's RFC process owes its inspiration to the [Vue RFC process](https://github.com/vuejs/rfcs)**
