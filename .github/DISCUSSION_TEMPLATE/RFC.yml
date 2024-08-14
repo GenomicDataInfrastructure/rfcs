@@ -1,6 +1,4 @@
-name: RFC Discussion
-description: "Template for submitting RFC proposals in the Genomic Data Infrastructure repository"
-title: "[RFC] <Title of Your RFC Proposal>"
+title: "[RFC Discussion] "
 labels: 
   - "RFC"
   - "discussion"
